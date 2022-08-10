@@ -18,7 +18,9 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 [API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on <http://localhost:3000/api/hello>. This endpoint can be edited in `pages/api/hello.js`.
 
 The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+```
 
-# cmd to remake site: docker stop website; docker rm website; docker-compose up -d --build; docker image prune -f
+cmd to remake site: docker stop website; docker rm website; docker-compose up -d --build; docker image prune -f
 
-# NEW COMMAND: docker-compose down; docker-compose up -d --build
+NEW COMMAND: docker-compose down; docker-compose up -d --build
+```
