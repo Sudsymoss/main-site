@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start -p 80"
+  },
+  "dependencies": {
+    "next": "^12.2.3",
+    "nodejs": "^0.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "name": "my-site",
+  "description": "This examples shows how to use Docker with Next.js based on the [deployment documentation](https://nextjs.org/docs/deployment#docker-image). Additionally, it contains instructions for deploying to Google Cloud Run. However, you can use any container-based deployment host.",
+  "version": "1.0.0",
+  "main": "next.config.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

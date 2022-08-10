@@ -1,0 +1,33 @@
+.container {
+  background-image: url('/img1.jpg');
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+
+.main {
+  min-height: 100vh;
+  padding: 4rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcomeName {
+  color: #0070f3;
+}
+
+
+.title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 4rem;
+}
+
+@media (max-width: 1000px) {
+  .main {
+    text-align: center;
+  }
+}

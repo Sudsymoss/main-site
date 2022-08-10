@@ -1,0 +1,124 @@
+.container {
+  background-image: url('/img1.jpg');
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+
+.main {
+  min-height: 100vh;
+  padding: 4rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#main {
+  min-height: 50vh;
+  margin-left: 15%;
+  margin-right: 15%;
+  justify-content: center;
+}
+
+.body {
+  text-align: center;
+  border-radius: 50px;
+}
+
+.ab {
+  text-align: left;
+  font-size: larger;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.body>h1 {
+  font-weight: 800;
+  font-size: xxx-large;
+  background: -webkit-linear-gradient(120deg, rgb(255, 166, 0), rgb(132, 25, 255) 80%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.body>p {
+  font-size: larger;
+}
+
+#fadeItems {
+  animation: fadeIn linear 500ms;
+  opacity: 0;
+  animation-fill-mode: forwards;
+  animation-delay: 3s;
+}
+
+.title a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+.title a:hover,
+.title a:focus,
+.title a:active {
+  text-decoration: underline;
+}
+
+.title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 4rem;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .ab {
+    flex-direction: column;
+    font-size: smaller;
+  }
+
+  #main {
+    min-height: 70vh;
+  }
+}
+
+
+
+#arrowDownFade {
+  animation: fadeIn linear 500ms;
+  opacity: 0;
+  animation-fill-mode: forwards;
+  animation-delay: 3s;
+}
+
+.arrowDown {
+  animation: bounce 0.5s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-delay: 3.5s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  100% {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: all;
+  }
+}
+
+
+@keyframes bounce {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+
+  to {
+    transform: translate3d(0, 75px, 0);
+  }
+}
