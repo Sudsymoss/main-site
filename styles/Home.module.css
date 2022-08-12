@@ -1,8 +1,5 @@
 .container {
-  background-image: url('/img1.jpg');
-  background-position: center;
-  background-size: cover;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 .main {
