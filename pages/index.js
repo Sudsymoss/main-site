@@ -16,7 +16,7 @@ export default function Home() {
         <Nav />
         <main className={styles.main}>
           <h1 className={styles.title}>
-            Welcome to <strong className={styles.welcomeName}>My world</strong>
+            Welcome to <strong className={styles.welcomeName}>My world!</strong>
           </h1>
         </main>
         <Footer />
