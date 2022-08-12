@@ -7,7 +7,7 @@ export const Footer = () => {
     return(
         <main className='maindiv'>
             <footer className='footer'>
-                <p>Made By: <strong class='Name'>Suddsymoss</strong></p>
+                <p>Made By: <strong class='Name'>James M</strong></p>
             </footer>
         </main>
     )

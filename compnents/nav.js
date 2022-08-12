@@ -14,7 +14,7 @@ export const Nav = () => {
                     <a href="/about">About</a>
                     <a href="/projects">Projects</a>
                     <a href="/src">Code</a>
-                    <p>© James Mowat</p>
+                    <p>© James M</p>
                 </div>
 
                 <a onClick={() => openNav()} className="navbut" id="navbut" href="javascript:void(0)">&#9776;</a>
