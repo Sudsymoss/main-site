@@ -14,7 +14,6 @@ export const Nav = () => {
                     <a href="/about">About</a>
                     <a href="/projects">Projects</a>
                     <a href="/src">Code</a>
-                    <a href='/local'>Local Sites</a>
                     <p>© James Mowat</p>
                 </div>
 
