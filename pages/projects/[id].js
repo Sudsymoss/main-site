@@ -39,7 +39,7 @@ export default function Goog({ project }) {
 
 
 export async function getServerSideProps({ params }) {
-    const req = await fetch(`http://192.168.1.221/api/${params.id}`)
+    const req = await fetch(`http://suddsy.dev/api/${params.id}`)
     const data = await req.json()
     console.log(data)
     return {

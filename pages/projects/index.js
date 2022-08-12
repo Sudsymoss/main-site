@@ -45,7 +45,7 @@ export default function Projects({news}) {
 
 
 export async function getServerSideProps(){
-    const res = await fetch(`http://192.168.1.221/api/projects`)
+    const res = await fetch(`http://suddsy.dev/api/projects`)
     const data = await res.json()
     console.log(data)
     return{
